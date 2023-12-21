@@ -1,0 +1,314 @@
+body{
+    font-family: Arial, sans-serif;
+   background-color: beige;
+  }
+  
+  main{
+    margin: 0 5%;
+  }
+  
+  .navbar-expand-lg{
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container-fluid{
+    margin: 0;
+    padding: 2%;
+  }
+  
+  nav ul li{
+    font-size: 20px;
+    margin: 3%;
+  }
+  
+  h1{
+      color: #000000;
+      font-size: 40px;
+      text-align: center;
+      margin: 4%;
+  }
+  
+  h2{
+    color: #000000;
+      font-size: 36px;
+      text-align: center;
+      margin: 4%;
+  }
+  
+  h3{
+    color: #000000;
+      font-size: 25px;
+      text-align: center;
+  }
+  
+  p{
+      color: #000000;
+      font-size: 20px;
+      text-align: center;
+  }
+  
+  strong{
+    font-size: 18px;
+    text-align: center;
+  }
+  
+  .btn-primary{
+    margin: 3% 0;
+  }
+  .btn-primary a {
+    color: white;
+  }
+  #productos{
+    margin-top: 10%;
+  }
+  
+  #novedades{
+    margin-top: 10%;
+  }
+  
+  #contacto{
+    margin-top: 10%;
+  }
+  
+  figure{
+    max-width: 100%;
+  }
+  
+  .formulario {
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+  #Introdución{
+    margin-top: 5%;
+  }
+  
+  form {
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  
+  label,
+  input,
+  textarea {
+    display: block;
+    margin-bottom: 10px;
+    min-height: 40px;
+    width: 100%;
+  }
+  
+  input[type="submit"] {
+    background-color: blue;
+    border:blue;
+    color: white;
+    min-height: 40px;
+    width: 100px;
+    margin-top: 15px;
+  }
+  
+  footer{
+    margin: 0 5%;
+    margin-top: 5%;
+  }
+  #datos{
+    text-align: center;
+  }
+  
+  .card-footer{
+    text-align: center;
+    color: #000000;
+  }
+
+#info{
+  background-color: #202020;
+  margin-top: 3%
+}
+#info p{
+  color: white;
+  font-size: 20px;
+}
+.logofooter2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logofooter2 img {
+    width: 60px;
+    height: 50px;
+    margin: 30px;
+}
+.tarjetas img{
+width: 80px;
+height: 70px;
+}
+
+#productos{
+  margin-top: 6%;
+}
+#productos strong{
+  font-size: 45px;
+}
+#corousel1 img{
+  text-align: center;
+  width: 350px;
+  height: 400px;
+}
+.boton01{
+  background-color: rgb(0, 255, 17);
+  border:rgb(0, 255, 17);
+  min-height: 35px;
+  width: 80px;
+ 
+}
+.boton01 a{
+  color: white;
+}
+#boton1{
+  background-color: rgb(0, 255, 17);
+    border:rgb(0, 255, 17);
+    color: white;
+    min-height: 40px;
+    width: 180px;
+    margin-top: 15px;
+}
+
+  @media screen and (min-width: 1050px){
+    figure{
+      max-width: 100%;
+    }
+    img{
+      width: 100%;
+      height: auto;
+    }
+    
+    .logo{
+      width: 90px;
+    }
+    
+  }
+  
+  @media screen and (min-width: 768px) and (max-width: 1049px){
+  
+    figure{
+      max-width: 100%;
+    }
+    img{
+      width: 100%;
+      height: auto;
+    }
+    .formulario {
+      width: 100%;
+      padding: 10px;
+    }
+    .logo{
+      width: 90px;
+    }
+    form {
+      max-width: 100%;
+    }
+    #nosotros .container{
+      flex: 0 0 auto;
+      text-align: center;
+      max-width: 100%;
+    }
+    #Introdución .container{
+      flex: 0 0 auto;
+      text-align: center;
+      max-width: 100%;
+    }
+    .col{
+      text-align: center;
+      max-width: 100%;
+      flex: 0 0 auto;
+    }
+    #datos {
+      width: 100%;
+      height: auto;
+      text-align: center;
+      justify-content: center;
+    }
+    .col-md-4 img{
+      width: 400px;
+      height: auto;
+    }
+    .p-3 img{
+      width: 550px;
+      height: 450px;
+    }
+    .logofooter2 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+     
+  }
+  
+  .logofooter2 img {
+      width: 60px;
+      height: 50px;
+      margin: 30px;
+  }
+    
+  }
+  
+  @media screen and (max-width: 767px) {
+    
+    figure{
+      max-width: 100%;
+    }
+    img{
+      width: 100%;
+      height: auto;
+    }
+    .logo{
+      width: 80px;
+    }
+    .formulario {
+      width: 100%;
+      padding: 10px;
+    }
+  
+    form {
+      max-width: 100%;
+    }
+    #nosotros .container{
+      flex: 0 0 auto;
+      text-align: center;
+      max-width: 100%;
+    }
+    #Introdución .container{
+      text-align: center;
+      flex: 0 0 auto;
+      max-width: 100%;
+    }
+    .col{
+      text-align: center;
+      max-width: 100%;
+      flex: 0 0 auto;
+    }
+    .p-3 img{
+      text-align: center;
+      width: 100%;
+      height: auto;
+    }
+    #datos {
+      width: 50%;
+      height: auto;
+      text-align: center;
+      justify-content: center;
+    }
+    .col-md-4 img{
+      width: 350px;
+      height: 250px;
+    }
+    
+    .card-body{
+      text-align: center;
+    }
+    .logofooter2 img {
+      width: 60px;
+      height: 50px;
+      margin: 10px;
+  }
+  }
